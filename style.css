@@ -372,13 +372,20 @@ h4:after {
 
     .slider {
         width: 70vw;
-        height: 90vh;
 
+
+    }
+
+    .top {
+        max-width: 960px;
+        margin: 0 auto;
     }
 
     #left {
         order: 2;
+        width: 100%;
     }
+
 
     #right {
         order: 3;
