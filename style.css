@@ -397,4 +397,35 @@ h4:after {
         width: 100%;
     }
 
+    .higai {
+        display: flex;
+    }
+
+    .gazou {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .higai2 {
+        display: flex;
+    }
+
+    .left-i {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .saigo {
+        display: flex;
+    }
+
+    .logodenwa {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
 }
