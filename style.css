@@ -368,6 +368,8 @@ h4:after {
     #mainbar {
         /*        background-attachment: scroll;*/
         order: 1;
+        width: 400px;
+        height: 600px;
     }
 
     .slider {
