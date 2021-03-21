@@ -60,14 +60,21 @@ nav a {
 
 #left {
     float: left;
+    display: block;
 
+}
+
+.logo {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
 }
 
 #mainbar {
     float: left;
     width: 650px;
     height: 670px;
-    margin: 0px 12px;
+/*    margin: 0px 12px;*/
     /*    background: #001ae5;*/
     padding: 8px;
 }
@@ -90,12 +97,9 @@ nav a {
 
 
 
-.AI {
-    margin-top: 20px;
-}
 
 .naisou {
-    margin-top: 22px;
+    margin-top: 15px;
 }
 
 #jikann {
@@ -137,7 +141,9 @@ p {
     margin-left: 15px;
 }
 
-
+p2 {
+    color: #ffed17;
+}
 
 #basyo {
     margin-top: 50px;
@@ -197,25 +203,29 @@ p.new {
 .gazou {
     flex-direction: row;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     /*    align-items: center;*/
 
 
 }
 
+/*
 .left-box {
     margin-right: 40px;
     margin-left: 20px;
 }
+*/
 
 .left-box img {
     height: 300px;
     width: 300px;
 }
 
+/*
 .center-box {
     margin-right: 40px;
 }
+*/
 
 .center-box img {
     height: 300px;
@@ -281,7 +291,7 @@ h3:after {
 */
 
 .left-i img {
-    margin-left: 50px;
+
     width: 350px;
     height: 250px;
 }
@@ -289,7 +299,7 @@ h3:after {
 .left-i {
     flex-direction: row;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 
 }
@@ -368,12 +378,20 @@ h4:after {
     #mainbar {
         /*        background-attachment: scroll;*/
         order: 1;
-        width: 400px;
-        height: 600px;
+        width: 100%;
+        margin: 0 auto;
+        box-sizing: border-box;
+        padding: 0 auto;
+        height: auto;
+
+
     }
 
     .slider {
-        width: 70vw;
+        /*
+        justify-content: center;
+        margin: 0 auto;
+*/
 
 
     }
@@ -406,7 +424,8 @@ h4:after {
     .gazou {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
     }
 
     .higai2 {
@@ -416,7 +435,11 @@ h4:after {
     .left-i {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+
+
+
     }
 
     .saigo {
